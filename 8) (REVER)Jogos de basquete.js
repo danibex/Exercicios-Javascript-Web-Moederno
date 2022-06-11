@@ -1,4 +1,4 @@
-let pontuacao = "10 20 20 8 25 3 0 30 1"
+let pontuacao = "10 20 20 8 25 3 0 30"
 
 function Jogos(pontos) {
 let array = pontos.split(" ")
