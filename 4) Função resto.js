@@ -2,16 +2,15 @@
 function divisao1(dividendo, divisor) {
     res = dividendo / divisor
     resto = dividendo % divisor
-    console.log(`A divisão de entre ${dividendo} e ${divisor} é ${res.toFixed(2)}, e o resto da divisão é ${resto}`)
-    return `Fim`
+    return `A divisão de entre ${dividendo} e ${divisor} é ${res.toFixed(2)}, e o resto da divisão é ${resto}`
+    
 }
 
 // Arrow function
 const divisao2 = (dividendo, divisor) => {
     res = dividendo / divisor
     resto = dividendo % divisor
-    console.log(`A divisão de entre ${dividendo} e ${divisor} é ${res.toFixed(2)}, e o resto da divisão é ${resto}`)
-    return `Fim`
+    return `A divisão de entre ${dividendo} e ${divisor} é ${res.toFixed(2)}, e o resto da divisão é ${resto}`
 }
 
 

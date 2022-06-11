@@ -1,13 +1,13 @@
 // Normal function
 function exponencial1(base, expoente) {
     res = base ** expoente
-    console.log(`O numero ${base} elevado a ${expoente} é ${res}`)
+    return `O numero ${base} elevado a ${expoente} é ${res}`
 }
 
 // Arrow function
 const exponencial2 = (base, expoente) => {
     res = base ** expoente
-    console.log(`O numero ${base} elevado a ${expoente} é ${res}`)
+    return `O numero ${base} elevado a ${expoente} é ${res}`
 }
 
 console.log(exponencial1(2, 10))
