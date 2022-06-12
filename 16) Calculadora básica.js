@@ -20,4 +20,4 @@ function calculadora(n1, n2, operacao) {
     return res
 }
 
-console.log(calculadora(10, 2, " "))
+console.log(calculadora(10, 2, "+"))
