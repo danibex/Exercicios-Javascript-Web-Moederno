@@ -2,7 +2,6 @@
 function jurosSimples(capital, juros, tempo) {
     juros = juros / 100
     ms = capital * juros * tempo
-    mc = capital * (1 + juros) ** tempo
     return ms
 }
 function jurosComposto(capital, juros, tempo) {
@@ -15,7 +14,6 @@ function jurosComposto(capital, juros, tempo) {
 const jurosSimples1 = (capital, juros, tempo) => {
     juros = juros / 100
     ms = capital * juros * tempo
-    mc = capital * (1 + juros) ** tempo
     return ms
 }
 const jurosComposto1 = (capital, juros, tempo) => {
