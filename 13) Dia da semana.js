@@ -1,4 +1,4 @@
-let dia = 8
+let dia = 1
 if (dia >= 1 && dia <= 7) {
     if (dia == 1 || dia == 7) {
         switch (dia) {
@@ -6,30 +6,30 @@ if (dia >= 1 && dia <= 7) {
                 console.log("Hoje é Domingo!")
                 console.log("Final de semana!")
             break
-            case 7:
+            case 6:
                 console.log("Hoje é Sábado!")
                 console.log("Final de semana!")
             break
         }
     } else {
         switch (dia) {
-            case 2:
+            case 1:
                 console.log("Hoje é Segunda!")
                 console.log("Dia útil!")
             break
-            case 3:
+            case 2:
                 console.log("Hoje é Terça!")
                 console.log("Dia útil!")
             break
-            case 4:
+            case 3:
                 console.log("Hoje é Quarta!")
                 console.log("Dia útil!")
             break
-            case 5:
+            case 4:
                 console.log("Hoje é Quinta!")
                 console.log("Dia útil!")
             break
-            case 6:
+            case 5:
                 console.log("Hoje é Sexta!")
                 console.log("Dia útil!")
             break
@@ -38,3 +38,4 @@ if (dia >= 1 && dia <= 7) {
 } else {
     console.log("Dia Inválido")
 }
+

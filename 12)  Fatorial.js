@@ -6,4 +6,5 @@ function fatorial(n) {
     return resultado
 }
 
-console.log(fatorial(7))
+console.log(fatorial(7)) // 5040
+console.log(fatorial(8)) // 40320
