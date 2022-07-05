@@ -26,4 +26,10 @@ function troco(valor) {
     return [`1 real: ${nota1}`, `5 reais: ${nota5}`, `10 reais: ${nota10}`, `50 reais: ${nota50}`, `100 reais: ${nota100}`]
 }
 
-console.log(troco(1872))
+console.log(troco(1872)) 
+/* [ '1 real: 2',
+    '5 reais: 0',
+    '10 reais: 2',
+    '50 reais: 1',
+    '100 reais: 18' ] 
+*/
